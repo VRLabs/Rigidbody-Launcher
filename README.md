@@ -37,7 +37,7 @@ You can grab the latest version of the Rigidbody Projectile in [Releases](https:
 
 ## License
 
-Rigidbody Projectile is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Rigidbody-Projectile/blob/dev/LICENSE).
+Rigidbody Projectile is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Rigidbody-Projectile/blob/main/LICENSE).
 
 ## Contact us
 
