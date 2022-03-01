@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ProjectileReady
+  m_Name: CannonReady
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -41,7 +41,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: ProjectileReady
+    attribute: CannonReady
     path: 
     classID: 95
     script: {fileID: 0}
@@ -106,7 +106,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: ProjectileReady
+    attribute: CannonReady
     path: 
     classID: 95
     script: {fileID: 0}

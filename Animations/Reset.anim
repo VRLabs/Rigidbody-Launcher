@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsKinematic
-    path: Rigidbody Projectile
+    path: Rigidbody Cannon
     classID: 54
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Projectile/Container
+    path: Rigidbody Cannon/Container
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -98,7 +98,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.r
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -126,7 +126,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.g
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -154,7 +154,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.b
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -182,7 +182,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.a
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -210,7 +210,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Container/Detonation Audio
+    path: Rigidbody Cannon/Container/Detonation Audio
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -238,7 +238,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Container/Fire Audio
+    path: Rigidbody Cannon/Container/Fire Audio
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -266,7 +266,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Projectile/Kinematic Rigidbody
+    path: Rigidbody Cannon/Kinematic Rigidbody
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -294,7 +294,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -322,7 +322,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.x
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -350,7 +350,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.y
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -378,7 +378,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.z
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -406,7 +406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ZDrive.positionDamper
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -434,7 +434,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Drag
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 54
     script: {fileID: 0}
   - curve:
@@ -462,7 +462,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision/Contact
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision/Contact
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -632,7 +632,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsKinematic
-    path: Rigidbody Projectile
+    path: Rigidbody Cannon
     classID: 54
     script: {fileID: 0}
   - curve:
@@ -660,7 +660,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Projectile/Container
+    path: Rigidbody Cannon/Container
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -688,7 +688,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.r
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -716,7 +716,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.g
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -744,7 +744,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.b
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -772,7 +772,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Color.a
-    path: Rigidbody Projectile/Container/Cube/Point Light
+    path: Rigidbody Cannon/Container/Cube/Point Light
     classID: 108
     script: {fileID: 0}
   - curve:
@@ -800,7 +800,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Container/Detonation Audio
+    path: Rigidbody Cannon/Container/Detonation Audio
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -828,7 +828,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Container/Fire Audio
+    path: Rigidbody Cannon/Container/Fire Audio
     classID: 1
     script: {fileID: 0}
   - curve:
@@ -856,7 +856,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Projectile/Kinematic Rigidbody
+    path: Rigidbody Cannon/Kinematic Rigidbody
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -884,7 +884,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_AffectTranslationZ
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 1773428102
     script: {fileID: 0}
   - curve:
@@ -912,7 +912,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.x
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -940,7 +940,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.y
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -968,7 +968,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_TargetVelocity.z
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -996,7 +996,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_ZDrive.positionDamper
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 153
     script: {fileID: 0}
   - curve:
@@ -1024,7 +1024,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Drag
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision
     classID: 54
     script: {fileID: 0}
   - curve:
@@ -1052,7 +1052,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsActive
-    path: Rigidbody Projectile/Kinematic Rigidbody/Collision/Contact
+    path: Rigidbody Cannon/Kinematic Rigidbody/Collision/Contact
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
