@@ -220,31 +220,31 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RigidbodyProjectile.Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
-  - m_Name: RigidbodyProjectile.Trigger
+    m_Controller: {fileID: 9100000}
+  - m_Name: RigidbodyProjectile.Status
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RigidbodyProjectile.Fire
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   - m_Name: RigidbodyProjectile.Reset
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Detonation
@@ -3893,7 +3893,7 @@ AnimatorStateTransition:
     m_ConditionEvent: RigidbodyProjectile
     m_EventTreshold: 1
   - m_ConditionMode: 4
-    m_ConditionEvent: RigidbodyProjectile.Trigger
+    m_ConditionEvent: RigidbodyProjectile.Life
     m_EventTreshold: 1
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -538592006564279180}
