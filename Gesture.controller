@@ -9,7 +9,7 @@ AnimatorController:
   m_Name: Gesture
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: ProjectileReady
+  - m_Name: CannonReady
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -29,7 +29,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: ProjectileReady
+    m_Name: CannonReady
     m_StateMachine: {fileID: 1107864977253088868}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -108,7 +108,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
-    m_ConditionEvent: ProjectileReady
+    m_ConditionEvent: CannonReady
     m_EventTreshold: 0.99
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1102369895511685682}
@@ -186,7 +186,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ProjectileReady
+  m_Name: CannonReady
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -212,7 +212,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: ProjectileReady
+  m_Name: CannonReady
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102521835313602432}

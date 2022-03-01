@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: RigidbodyProjectile.Control
+    m_ConditionEvent: RigidbodyCannon.Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6467297252228333589}
@@ -89,7 +89,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rigidbody Projectile Control
+  m_Name: Rigidbody Cannon Control
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -6467297252228333589}
@@ -116,7 +116,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyProjectile.Control
+    m_ConditionEvent: RigidbodyCannon.Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3507783978831106398}
@@ -141,7 +141,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyProjectile.Reset
+    m_ConditionEvent: RigidbodyCannon.Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5045826531888063793}
@@ -215,36 +215,36 @@ AnimatorController:
   m_Name: FX
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: RigidbodyProjectile
+  - m_Name: RigidbodyCannon
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyProjectile.Control
+    m_Controller: {fileID: 0}
+  - m_Name: RigidbodyCannon.Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyProjectile.Status
+    m_Controller: {fileID: 0}
+  - m_Name: RigidbodyCannon.Status
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyProjectile.Fire
+    m_Controller: {fileID: 0}
+  - m_Name: RigidbodyCannon.Fire
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyProjectile.Reset
+    m_Controller: {fileID: 0}
+  - m_Name: RigidbodyCannon.Reset
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Detonation
@@ -259,7 +259,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: Rigidbody Projectile Control
+    m_Name: Rigidbody Cannon Control
     m_StateMachine: {fileID: -4704400993987869069}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -395,10 +395,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyProjectile.Fire
+    m_ConditionEvent: RigidbodyCannon.Fire
     m_EventTreshold: 3
   - m_ConditionMode: 6
-    m_ConditionEvent: RigidbodyProjectile
+    m_ConditionEvent: RigidbodyCannon
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6343472685209694698}
@@ -3890,7 +3890,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: RigidbodyProjectile
+    m_ConditionEvent: RigidbodyCannon
     m_EventTreshold: 1
   - m_ConditionMode: 4
     m_ConditionEvent: RigidbodyProjectile.Life
@@ -3973,7 +3973,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyProjectile.Reset
+    m_ConditionEvent: RigidbodyCannon.Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 5045826531888063793}
