@@ -19,27 +19,27 @@ jobs:
       
       - name: Prepare Folder For Packaging
         run: |
-          mkdir -p "Assets/VRLabs/Rigidbody Projectile"
-          ls | grep -v "Assets" | xargs -i{} mv {} "Assets/VRLabs/Rigidbody Projectile"
+          mkdir -p "Assets/VRLabs/Rigidbody Cannon"
+          ls | grep -v "Assets" | xargs -i{} mv {} "Assets/VRLabs/Rigidbody Cannon"
           echo -e "fileFormatVersion: 2\nguid: 652a1ba5b00554143bc9a76307dbc4e8\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs.meta"
-          echo -e "fileFormatVersion: 2\nguid: 731bea7ea153544eb8a3310925312f52\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/Rigidbody Projectile.meta"
-          find "Assets/" -name \*.meta ! -name "Media.meta" -not -path "Assets/VRLabs/Rigidbody Projectile/Media/*" > package
+          echo -e "fileFormatVersion: 2\nguid: 731bea7ea153544eb8a3310925312f52\nfolderAsset: yes\nDefaultImporter:\n  externalObjects: {}\n  userData: \n  assetBundleName: \n  assetBundleVariant: " > "Assets/VRLabs/Rigidbody Cannon.meta"
+          find "Assets/" -name \*.meta ! -name "Media.meta" -not -path "Assets/VRLabs/Rigidbody Cannon/Media/*" > package
 
       - name: Create UnityPackage
         env:
           SOURCE_TAG: ${{ steps.branch_name.outputs.SOURCE_TAG }}
         uses: pCYSl5EDgo/create-unitypackage@master
         with:
-          package-path: 'Rigidbody_Projectile_${{ env.SOURCE_TAG }}.unitypackage'
+          package-path: 'Rigidbody_Cannon_${{ env.SOURCE_TAG }}.unitypackage'
           include-files: package
           
       - name: Create Release
         uses: softprops/action-gh-release@v1
         if: startsWith(github.ref, 'refs/tags/')
         with:
-          name: "Rigidbody Projectile ${{ env.SOURCE_TAG }}"
+          name: "Rigidbody Cannon ${{ env.SOURCE_TAG }}"
           files: |
-            Rigidbody_Projectile_${{ env.SOURCE_TAG }}.unitypackage
+            Rigidbody_Cannon_${{ env.SOURCE_TAG }}.unitypackage
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SOURCE_TAG: ${{ steps.branch_name.outputs.SOURCE_TAG }}
