@@ -5182,7 +5182,6 @@ MonoBehaviour:
   localOnly: 0
   receiverType: 0
   parameter: RigidbodyCannon.Life
-  value: 1
   minVelocity: 0.05
 --- !u!1 &6242274582343621477
 GameObject:
