@@ -21,7 +21,7 @@ https://user-images.githubusercontent.com/45078979/168454577-6244e54b-6531-4861-
 
 You must be using the latest [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) version, as it adds "IsMirror" as a default parameter.
 
-[Local Mirror Detection](https://github.com/VRLabs/Local-Mirror-Detection) is required for this package to work. Import and merge the FX controller.
+[Local Mirror Detection](https://github.com/VRLabs/Local-Mirror-Detection) is required for this package to work. Import the package and merge the FX controller.
 
 Merge the FX controller from this package to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
  
