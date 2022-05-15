@@ -9,7 +9,7 @@ Launch an object with collision against the world.
 
 ## How it works
 
-Physics joints, constraints, a particle system, and contacts are animated to shoot a rigidbody with a collider and change a parameter on collision with the world.
+A configurable joint is connected to a world-constrained parent kinematic rigidbody and given velocity on it's free Z-axis. The joint has collision and stops against the world. A particle system under the joint dies with collision, causing a stop action disable, triggering a contact-driven parameter change.
 
 ## Preview
 
