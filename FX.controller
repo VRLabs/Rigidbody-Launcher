@@ -246,12 +246,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: RigidbodyCannon.Status
+  - type: 0
+    name: RigidbodyCannon.Status
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!91 &9100000
@@ -444,18 +450,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: RigidbodyCannon.Fire
+  - type: 0
+    name: RigidbodyCannon.Fire
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: RigidbodyCannon.Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: RigidbodyCannon.Reset
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &1034803826990050777
@@ -3896,12 +3914,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: RigidbodyCannon.Status
+  - type: 0
+    name: RigidbodyCannon.Status
+    source: 
     value: 2
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &2035695263568035105
@@ -4027,12 +4051,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: RigidbodyCannon.Status
+  - type: 0
+    name: RigidbodyCannon.Status
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1102 &4049789727343212063
@@ -4159,18 +4189,30 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parameters:
-  - name: RigidbodyCannon.Fire
+  - type: 0
+    name: RigidbodyCannon.Fire
+    source: 
     value: 1
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
-  - name: RigidbodyCannon.Reset
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
+  - type: 0
+    name: RigidbodyCannon.Reset
+    source: 
     value: 0
     valueMin: 0
     valueMax: 0
     chance: 0
-    type: 0
+    convertRange: 0
+    sourceMin: 0
+    sourceMax: 0
+    destMin: 0
+    destMax: 0
   localOnly: 0
   debugString: 
 --- !u!1101 &6277122555336560748
