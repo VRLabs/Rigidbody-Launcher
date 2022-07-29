@@ -37,7 +37,7 @@ Remove "Rigidbody Cannon Target" outside of "Rigidbody Cannon" and place it anyw
 
 **"RigidbodyCannon.Control" parameter must be true for the system to fire, and false to reset.**
 
-You can edit the "Fire.anim" clip and change the "Target Velocity". With the configurable joint on the "Rigidbody Cannon/Kinematic Rigidbody/Collision" object, you can also change the "Maximum Force" property under the "X/Y/Z Drive" sections.
+To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Cannon/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
 
 ## Downloads
 
