@@ -1,9 +1,9 @@
-# Rigidbody Cannon
+# Rigidbody Launcher
   
 [![Generic badge](https://img.shields.io/badge/Unity-2019.4.31f1-informational.svg)](https://unity3d.com/unity/whats-new/2019.4.31)
 [![Generic badge](https://img.shields.io/badge/SDK-AvatarSDK3-informational.svg)](https://vrchat.com/home/download)
-[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Rigidbody-Cannon/blob/main/LICENSE)
-[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Rigidbody-Cannon/total?label=Downloads)](https://github.com/VRLabs/Rigidbody-Cannon/releases/latest)
+[![Generic badge](https://img.shields.io/badge/License-MIT-informational.svg)](https://github.com/VRLabs/Rigidbody-Launcher/blob/main/LICENSE)
+[![Generic badge](https://img.shields.io/github/downloads/VRLabs/Rigidbody-Launcher/total?label=Downloads)](https://github.com/VRLabs/Rigidbody-Launcher/releases/latest)
 
 Launch an object with collision against the world.
 
@@ -21,27 +21,27 @@ https://user-images.githubusercontent.com/45078979/168454577-6244e54b-6531-4861-
 
 Merge the FX controller from this package to your own FX controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
  
-"Rigidbody Cannon.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
+"Rigidbody Launcher.prefab" should go to the base of your Unity scene, which will give it base Unity scaling.
 
 Unpack the prefab by right-clicking it.
 
-Place "Rigidbody Cannon" at the base of your avatar.
+Place "Rigidbody Launcher" at the base of your avatar.
 
-Remove "Rigidbody Cannon Target" outside of "Rigidbody Cannon" and place it anywhere in your avatar's hierarchy. Adjust the transforms as you need.
+Remove "Rigidbody Launcher Target" outside of "Rigidbody Launcher" and place it anywhere in your avatar's hierarchy. Adjust the transforms as you need.
 
 ## How to use
 
-**"RigidbodyCannon.Control" parameter must be true for the system to fire, and false to reset.**
+**"RigidbodyLauncher.Control" parameter must be true for the system to fire, and false to reset.**
 
-To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Cannon/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
+To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Launcher/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
 
 ## Downloads
 
-You can grab the latest version of the Rigidbody Cannon in [Releases](https://github.com/VRLabs/Rigidbody-Cannon/releases/latest).
+You can grab the latest version of the Rigidbody Launcher in [Releases](https://github.com/VRLabs/Rigidbody-Launcher/releases/latest).
 
 ## License
 
-Rigidbody Cannon is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Rigidbody-Cannon/blob/main/LICENSE).
+Rigidbody Launcher is available as-is under MIT. For more information see [LICENSE](https://github.com/VRLabs/Rigidbody-Launcher/blob/main/LICENSE).
 
 ## Contact us
 

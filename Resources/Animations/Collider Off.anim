@@ -42,7 +42,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Cannon/Kinematic Rigidbody/Collision/Box Collider
+    path: Rigidbody Launcher/Kinematic Rigidbody/Collision/Box Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -70,7 +70,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsKinematic
-    path: Rigidbody Cannon
+    path: Rigidbody Launcher
     classID: 54
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -142,7 +142,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: Rigidbody Cannon/Kinematic Rigidbody/Collision/Box Collider
+    path: Rigidbody Launcher/Kinematic Rigidbody/Collision/Box Collider
     classID: 65
     script: {fileID: 0}
   - curve:
@@ -170,7 +170,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_IsKinematic
-    path: Rigidbody Cannon
+    path: Rigidbody Launcher
     classID: 54
     script: {fileID: 0}
   m_EulerEditorCurves: []

@@ -9,7 +9,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyCannon.Reset
+    m_ConditionEvent: RigidbodyLauncher.Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7090286849781188064}
@@ -34,7 +34,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyCannon.DetectMirror
+    m_ConditionEvent: RigidbodyLauncher.DetectMirror
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -1320921861144524445}
@@ -57,7 +57,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rigidbody Cannon Collider
+  m_Name: Rigidbody Launcher Collider
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 6891058465151473433}
@@ -154,7 +154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.Fire
+    name: RigidbodyLauncher.Fire
     source: 
     value: 1
     valueMin: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-    name: RigidbodyCannon.Reset
+    name: RigidbodyLauncher.Reset
     source: 
     value: 0
     valueMin: 0
@@ -188,10 +188,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyCannon.Fire
+    m_ConditionEvent: RigidbodyLauncher.Fire
     m_EventTreshold: 3
   - m_ConditionMode: 6
-    m_ConditionEvent: RigidbodyCannon.Status
+    m_ConditionEvent: RigidbodyLauncher.Status
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3696477292737927737}
@@ -216,7 +216,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: RigidbodyCannon.Control
+    m_ConditionEvent: RigidbodyLauncher.Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7583673562982100365}
@@ -269,7 +269,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyCannon.Control
+    m_ConditionEvent: RigidbodyLauncher.Control
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 8311564625628057168}
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.Fire
+    name: RigidbodyLauncher.Fire
     source: 
     value: 0
     valueMin: 0
@@ -311,7 +311,7 @@ MonoBehaviour:
     destMin: 0
     destMax: 0
   - type: 0
-    name: RigidbodyCannon.Reset
+    name: RigidbodyLauncher.Reset
     source: 
     value: 1
     valueMin: 0
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.DetectMirror
+    name: RigidbodyLauncher.DetectMirror
     source: 
     value: 1
     valueMin: 0
@@ -416,7 +416,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.Status
+    name: RigidbodyLauncher.Status
     source: 
     value: 2
     valueMin: 0
@@ -444,37 +444,37 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.Control
+  - m_Name: RigidbodyLauncher.Control
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.Fire
+  - m_Name: RigidbodyLauncher.Fire
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.Reset
+  - m_Name: RigidbodyLauncher.Reset
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.Life
+  - m_Name: RigidbodyLauncher.Life
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.Status
+  - m_Name: RigidbodyLauncher.Status
     m_Type: 3
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
-  - m_Name: RigidbodyCannon.DetectMirror
+  - m_Name: RigidbodyLauncher.DetectMirror
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -482,7 +482,7 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
-    m_Name: Rigidbody Cannon Control
+    m_Name: Rigidbody Launcher Control
     m_StateMachine: {fileID: 1639443996083421755}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -494,7 +494,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: Rigidbody Cannon Detonation
+    m_Name: Rigidbody Launcher Detonation
     m_StateMachine: {fileID: 8728487005179882901}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -506,7 +506,7 @@ AnimatorController:
     m_SyncedLayerAffectsTiming: 0
     m_Controller: {fileID: 9100000}
   - serializedVersion: 5
-    m_Name: Rigidbody Cannon Collider
+    m_Name: Rigidbody Launcher Collider
     m_StateMachine: {fileID: -7762090695707786378}
     m_Mask: {fileID: 0}
     m_Motions: []
@@ -524,7 +524,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rigidbody Cannon Control
+  m_Name: Rigidbody Launcher Control
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7583673562982100365}
@@ -584,7 +584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.Status
+    name: RigidbodyLauncher.Status
     source: 
     value: 0
     valueMin: 0
@@ -606,10 +606,10 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 6
-    m_ConditionEvent: RigidbodyCannon.Status
+    m_ConditionEvent: RigidbodyLauncher.Status
     m_EventTreshold: 1
   - m_ConditionMode: 2
-    m_ConditionEvent: RigidbodyCannon.Life
+    m_ConditionEvent: RigidbodyLauncher.Life
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -5595594652149174638}
@@ -744,7 +744,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: RigidbodyCannon.Reset
+    m_ConditionEvent: RigidbodyLauncher.Reset
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7090286849781188064}
@@ -774,7 +774,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyCannon.Status
+    name: RigidbodyLauncher.Status
     source: 
     value: 1
     valueMin: 0
@@ -847,7 +847,7 @@ AnimatorStateMachine:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rigidbody Cannon Detonation
+  m_Name: Rigidbody Launcher Detonation
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: -7090286849781188064}
@@ -877,7 +877,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 2
-    m_ConditionEvent: RigidbodyCannon.DetectMirror
+    m_ConditionEvent: RigidbodyLauncher.DetectMirror
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 3564191711609697281}

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5994908376758654323}
   - component: {fileID: 5994908376758654332}
   m_Layer: 0
-  m_Name: Rigidbody Cannon
+  m_Name: Rigidbody Launcher
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5136,7 +5136,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - RigidbodyCannon
+  - RigidbodyLauncher
 --- !u!114 &6297196512289448504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5156,12 +5156,12 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - RigidbodyCannon
+  - RigidbodyLauncher
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: RigidbodyCannon.Life
+  parameter: RigidbodyLauncher.Life
   minVelocity: 0.05
 --- !u!1 &6242274582343621477
 GameObject:
@@ -5600,7 +5600,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3279215098336769151}
   m_Layer: 0
-  m_Name: Rigidbody Cannon Target
+  m_Name: Rigidbody Launcher Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
