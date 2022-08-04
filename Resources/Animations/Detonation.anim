@@ -661,6 +661,34 @@ AnimationClip:
     path: Rigidbody Launcher/Kinematic Rigidbody/Collision
     classID: 1773428102
     script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: CollisionModule.enabled
+    path: Rigidbody Launcher/Kinematic Rigidbody/Collision/Contact
+    classID: 198
+    script: {fileID: 0}
   m_PPtrCurves: []
   m_SampleRate: 60
   m_WrapMode: 0
@@ -670,165 +698,172 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2117652189
+      path: 73326558
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1773428102
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333487351
+      path: 3361684659
       attribute: 2526845255
       script: {fileID: 0}
       typeID: 108
       customType: 25
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333487351
+      path: 3361684659
       attribute: 4215373228
       script: {fileID: 0}
       typeID: 108
       customType: 25
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333487351
+      path: 3361684659
       attribute: 2334886179
       script: {fileID: 0}
       typeID: 108
       customType: 25
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2333487351
+      path: 3361684659
       attribute: 304273561
       script: {fileID: 0}
       typeID: 108
       customType: 25
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2007890449
+      path: 887420501
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3166760502
+      path: 4289140631
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 635600938
+      path: 737299266
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 1773428102
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 912968487
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 1097726897
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 3630475787
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 3483771575
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 1406679156
       script: {fileID: 0}
       typeID: 54
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 52746349
+      path: 2863276764
       attribute: 2086281974
       script: {fileID: 0}
       typeID: 1
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 3967888418
       script: {fileID: 0}
       typeID: 54
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 727851978
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 3031998548
       script: {fileID: 0}
       typeID: 153
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967284
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967285
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967286
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967281
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967282
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 11739881
+      path: 3566580110
       attribute: 4294967283
       script: {fileID: 0}
       typeID: 1773428102
       customType: 35
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2863276764
+      attribute: 753351328
+      script: {fileID: 0}
+      typeID: 198
+      customType: 27
       isPPtrCurve: 0
     pptrCurveMapping: []
   m_AnimationClipSettings:
@@ -1495,6 +1530,34 @@ AnimationClip:
     attribute: m_AffectTranslationZ
     path: Rigidbody Launcher/Kinematic Rigidbody/Collision
     classID: 1773428102
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 0.016666668
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: CollisionModule.enabled
+    path: Rigidbody Launcher/Kinematic Rigidbody/Collision/Contact
+    classID: 198
     script: {fileID: 0}
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
