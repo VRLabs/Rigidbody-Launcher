@@ -5381,7 +5381,7 @@ GameObject:
   - component: {fileID: 6512080348506896051}
   - component: {fileID: 6512080348506896050}
   m_Layer: 0
-  m_Name: Detonation Audio
+  m_Name: Collision Audio
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
