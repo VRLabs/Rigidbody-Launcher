@@ -5217,7 +5217,7 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - RigidbodyLauncher
+  - RigidbodyLauncher/Life
 --- !u!114 &6297196512289448504
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5237,12 +5237,12 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 1}
   collisionTags:
-  - RigidbodyLauncher
+  - RigidbodyLauncher/Life
   allowSelf: 1
   allowOthers: 0
   localOnly: 0
   receiverType: 0
-  parameter: RigidbodyLauncher.Life
+  parameter: RigidbodyLauncher/Life
   minVelocity: 0.05
 --- !u!1 &6242274582343621477
 GameObject:
