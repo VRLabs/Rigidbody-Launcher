@@ -31,7 +31,7 @@ Remove "Rigidbody Launcher Target" outside of "Rigidbody Launcher" and place it 
 
 ## How to use
 
-**"RigidbodyLauncher.Control" parameter must be true for the system to fire, and false to reset.**
+**"RigidbodyLauncher/Control" parameter must be true for the system to fire, and false to reset.**
 
 To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Launcher/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
 
