@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parameters:
   - type: 0
-    name: RigidbodyLauncher.DetectMirror
+    name: RigidbodyLauncher/DetectMirror
     source: 
     value: 1
     valueMin: 0
