@@ -9,7 +9,7 @@ Launch an object with collision against the world.
 
 ## How it works
 
-A configurable joint is connected to a world-constrained parent kinematic rigidbody and given velocity on it's free Z-axis. The joint has collision and stops against the world. A particle system under the joint dies with collision, causing a stop action disable, triggering a contact-driven parameter change.
+A configurable joint is connected to a world-constrained parent kinematic rigidbody and given velocity on the Z-axis. The joint has collision and stops against the world. A particle system under the joint dies with collision, causing a stop action disable, triggering a contact-driven parameter change.
 
 ## Preview
 
@@ -33,7 +33,9 @@ Remove "Rigidbody Launcher Target" outside of "Rigidbody Launcher" and place it 
 
 **"RigidbodyLauncher/Control" parameter must be true for the system to fire, and false to reset.**
 
-To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Launcher/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
+To change speed, you can edit the "Fire.anim" clip and change the "Target Velocity". You need to use a negative value. You can also change the "Maximum Force" property under the "X/Y/Z Drive" sections of the "Rigidbody Launcher/Kinematic Rigidbody/Collision" configurable joint. Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
+
+To launch the rigidbody perfectly straight, freeze rotation for XYZ on the Collision rigidbody(not the configurable joint), and set the X and Y motion on the Collision configurable joint as locked. This will make it so only Z-axis motion is possible.
 
 ## Downloads
 

@@ -249,7 +249,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 0
   m_CollisionDetection: 1
 --- !u!153 &1580616185001994987
 ConfigurableJoint:
@@ -339,7 +339,7 @@ ConfigurableJoint:
   m_ProjectionDistance: 0.01
   m_ProjectionAngle: 180
   m_ConfiguredInWorldSpace: 0
-  m_SwapBodies: 1
+  m_SwapBodies: 0
   m_BreakForce: Infinity
   m_BreakTorque: Infinity
   m_EnableCollision: 0
