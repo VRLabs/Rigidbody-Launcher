@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Collider On
+  m_Name: Launcher Collider On
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -82,14 +82,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2926019760
+      path: 4269105917
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 65
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 1964260975
+      path: 976658724
       attribute: 2041097263
       script: {fileID: 0}
       typeID: 54
