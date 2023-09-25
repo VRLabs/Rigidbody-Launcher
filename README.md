@@ -10,7 +10,7 @@
 [![Generic badge](https://img.shields.io/discord/706913824607043605?color=%237289da&label=DISCORD&logo=Discord&style=for-the-badge)](https://discord.vrlabs.dev/)
 [![Generic badge](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-patreon.vercel.app%2Fapi%3Fusername%3Dvrlabs%26type%3Dpatrons&style=for-the-badge)](https://patreon.vrlabs.dev/)
 
-Launch an object with collision against the world.
+Launch an object with collision against the world
 
 ![Alt text]()
 
@@ -25,26 +25,27 @@ Launch an object with collision against the world.
 
 ## How it works
 
-* A configurable joint is connected to a world-constrained parent kinematic rigidbody and given velocity on the Z-axis.
+* A configurable joint is connected to a [world-constrained](https://github.com/VRLabs/World-Constraint) kinematic rigidbody and given velocity on the Z-axis.
 * The joint has collision and stops against the world.
-* A particle system under the joint dies with collision, causing a stop action disable, triggering a contact-driven parameter change.
+* A particle system under the joint dies with collision, causing a [particle stop action disable](https://docs.unity3d.com/ScriptReference/ParticleSystemStopAction.html), triggering a contact-driven parameter change.
 
 ## Install guide
 
 * Merge the Animator Controller ``Rigidbody Launcher FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
-* Drag & drop the ``Rigidbody Launcher Tracker`` prefab into the base of your Hierarchy.
+* Drag & drop the ``Rigidbody Launcher`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
 * Move ``Rigidbody Launcher Target`` outside of ``Rigidbody Launcher`` and place it anywhere in your avatar's hierarchy. Adjust the transforms as needed.
 
 ## How to use
 
+* Place the objects you want to to use inside ``Rigidbody Launcher`` -> ``Container``.
+  * Alternatively you can constrain the objects to ``Container``.
 * ``RigidbodyLauncher/Control`` parameter must be true for the system to fire, and false to reset.
-* To change speed, you can edit the ``Fire.anim`` clip and change the ``Target Velocity``. You need to use a negative value.
+* To change speed, you can edit the ``Launcher Fire.anim`` animation clip and change the ``Target Velocity``. You need to use a negative value.
   * You can also change the ``Maximum Force`` property under the ``X/Y/Z Drive`` sections of the ``Rigidbody Launcher/Kinematic Rigidbody/Collision`` configurable joint.
-  * Other properties of the Collision joint are editable depending on the rigidbody motion you want to achieve.
-* To launch the rigidbody perfectly straight, freeze rotation for XYZ on the Collision rigidbody(not the configurable joint), and set the X and Y motion on the Collision configurable joint as locked.
+  * Other properties of the joint on ``Collision`` are editable depending on the rigidbody motion you want to achieve.
+* To launch the rigidbody perfectly straight, freeze rotation for XYZ on the ``Collision`` rigidbody (not the configurable joint), and set the X and Y motion on the ``Collision`` configurable joint as locked.
   * This will make it so only Z-axis motion is possible.
-
 
 ## Performance stats
 
