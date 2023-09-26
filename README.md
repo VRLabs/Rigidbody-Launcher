@@ -31,6 +31,8 @@ Launch an object with collision against the world
 
 ## Install guide
 
+https://github.com/VRLabs/Rigidbody-Launcher/assets/76777936/9f288264-7a4b-4790-b6c3-38a1180a3ea5
+
 * Merge the Animator Controller ``Rigidbody Launcher FX`` to your own FX Controller, using the [Avatars 3.0 Manager](https://github.com/VRLabs/Avatars-3.0-Manager) tool.
 * Drag & drop the ``Rigidbody Launcher`` prefab into the base of your Hierarchy.
 * Right click and unpack the prefab, then drag & drop it onto your avatar.
