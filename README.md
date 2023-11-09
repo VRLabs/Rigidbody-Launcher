@@ -12,7 +12,7 @@
 
 Launch an object with collision against the world
 
-![RigidbodyLauncher](https://github.com/VRLabs/Rigidbody-Launcher/assets/76777936/e5fbe245-8073-4696-8196-417a4a8343d1)
+![RigidbodyLauncher](https://github.com/VRLabs/Rigidbody-Launcher/assets/76777936/c475c245-c1f9-4360-ae27-72c2daebb460)
 
 
 ### ⬇️ [Download latest Unitypackage](https://github.com/VRLabs/Rigidbody-Launcher/releases/latest)
