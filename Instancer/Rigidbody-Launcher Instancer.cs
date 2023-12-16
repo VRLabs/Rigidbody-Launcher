@@ -18,7 +18,7 @@ namespace VRLabs.RigidbodyLauncher
 			"package.json"
 		};
 
-		[MenuItem("VRLabs/Rigidbody Launcher")]
+		[MenuItem("VRLabs/Create Instance/Rigidbody Launcher")]
 		public static void FancyPackage()
 		{
 			Type instancerType = AppDomain.CurrentDomain.GetAssemblies()
