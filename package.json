@@ -1,9 +1,9 @@
 {
   "name": "dev.vrlabs.rigidbody-launcher",
   "displayName": "Rigidbody Launcher",
-  "version": "1.2.9991",
+  "version": "1.2.5",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3.6f1",
   "description": "Launch an object with collision against the world",
   "author": {
     "name": "VRLabs",
