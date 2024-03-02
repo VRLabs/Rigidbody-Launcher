@@ -1,10 +1,10 @@
 {
   "name": "dev.vrlabs.rigidbody-launcher",
   "displayName": "Rigidbody Launcher",
-  "version": "1.2.999",
+  "version": "1.2.9991",
   "license": "MIT",
   "unity": "2019.4",
-  "description": "A constraint system with spring behavior",
+  "description": "Launch an object with collision against the world",
   "author": {
     "name": "VRLabs",
     "email": "mail@vrlabs.dev",
