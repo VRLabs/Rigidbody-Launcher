@@ -3,7 +3,7 @@
   "displayName": "Rigidbody Launcher",
   "version": "1.2.999",
   "license": "MIT",
-  "unity": "2019.4",
+  "unity": "2022.3",
   "description": "Launch an object with collision against the world",
   "author": {
     "name": "VRLabs",
@@ -26,5 +26,6 @@
   "unityPackageDestinationFolderMetas": {
     "Assets/VRLabs": "652a1ba5b00554143bc9a76307dbc4e8",
     "Assets/VRLabs/Rigidbody Launcher": "731bea7ea153544eb8a3310925312f52"
-  }
+  },
+  "questCompatibility": "none"
 }
