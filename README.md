@@ -58,7 +58,7 @@ Constraints:        4
 Constraint Depth:   4
 Contact Receivers:  1
 Contact Senders:    1
-FX Animator Layers: 1
+FX Animator Layers: 2
 Lights:             1
 Particle Systems:   1
 Rigidbodies:        3
